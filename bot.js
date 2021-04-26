@@ -39,7 +39,7 @@ FINLAND FTW!
 
         if(vue.accumulator == 0){
             totalpops += 800;
-            console.log(`[${new Date().toLocaleTimeString()}] %cAdded 800 pops, (Total: ${totalpops})`, "color: #0f0");
+            console.log(`[${new Date().toLocaleTimeString()}] %c+ 800 pops, (Total: ${totalpops})`, "color: #0f0");
 
             vue.counter += 800;
 
