@@ -39,7 +39,11 @@ FINLAND FTW!
 
         if(vue.accumulator == 0){
             totalpops += 800;
+<<<<<<< HEAD
             console.log(`[${new Date().toLocaleTimeString()}] %c+ 800 pops, (Total: ${totalpops})`, "color: #0f0");
+=======
+            console.log(`[${new Date().toLocaleTimeString()}] %cAdded 800 pops, (Total: ${totalpops})`, "color: #0f0");
+>>>>>>> 1976032444dbf8c2a919a0bac9ab24aa8ff8e4a2
 
             vue.counter += 800;
 
@@ -54,4 +58,8 @@ FINLAND FTW!
     }, 1000);
 
     console.log("%c Started bot. Waiting to send first request. ", "background: #00; color: #0f0");
+<<<<<<< HEAD
 })();
+=======
+})();
+>>>>>>> 1976032444dbf8c2a919a0bac9ab24aa8ff8e4a2
