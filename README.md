@@ -13,4 +13,4 @@ How to use
 
 With this bot you can get 576 000 clicks in 24 hours if on for the whole 24 hours.
 
-Note: If at the start it says "Started bot on country undefined." and not "Started bot on country <Your county>.", you have likely been marked as a bot. Clear your cookies.
+Note: If at the start it says "Started bot on country undefined." and not "Started bot on country [Your county].", you have likely been marked as a bot. Clear your cookies.
