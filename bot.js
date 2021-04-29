@@ -37,7 +37,8 @@ FINLAND FTW!
         vue.sequential_max_pops = 0;
 
         if(vue.accumulator == 0){
-            totalpops += 800;
+            totalpops = 800 + vue.counter;
+            totalpops = totalpops.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
             console.log(`[${new Date().toLocaleTimeString()}] %c+ 800 pops, (Total: ${totalpops})`, "color: #0f0");
 
             vue.counter += 800;
@@ -52,5 +53,7 @@ FINLAND FTW!
         
     }, 1000);
 
-    console.log("%c Started bot. Sending first request. ", "background: #00; color: #0f0");
+    var vue = document.getElementById('app').__vue__;
+    var country = vue.location;
+    console.log(`%c Started bot on country ${country}. Sending first request. `, "background: #00; color: #0f0");
 })();
