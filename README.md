@@ -3,6 +3,8 @@ Popcat cheese
 
 Anti-ban popcat bot for browser console.
 
+Original Idea by wberdowski at https://gist.github.com/wberdowski/9ccd275394a7ccf21ba602a3c736f5d9
+
 How to use
 =============
 
